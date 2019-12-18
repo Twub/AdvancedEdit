@@ -1,5 +1,7 @@
 package com.editor;
 
+import com.editor.screen.Panel;
+
 import javax.swing.*;
 
 public class Main {
@@ -14,7 +16,8 @@ public class Main {
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setLocationRelativeTo(null);
 
-
+        Panel p = new Panel();
+        window.getContentPane().add(p);
 
         window.setVisible(true);
     }

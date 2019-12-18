@@ -1,4 +1,16 @@
 package com.editor.screen;
 
-public class Panel {
+import javax.swing.*;
+import java.awt.*;
+
+public class Panel extends JPanel {
+
+    public Panel(){
+        setLayout(null);
+        makeComponents();
+    }
+
+    private void makeComponents(){
+
+    }
 }
